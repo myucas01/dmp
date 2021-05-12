@@ -1,0 +1,40 @@
+.el-dialog__header {font-weight: bold; border-bottom: 1px solid #d2caca}
+.el-form .el-form-item .el-form-item__label { font-weight:600;color:rgba(28,36,56,1);font-family:PingFangSC;font-size:13px;}
+
+.el-table { border: 1px solid #f7f7f7; }
+.el-table thead {color: #1C2438;}
+.el-table__header {border: 1px solid #f7f7f7;}
+.el-table th, .el-table thead tr {
+  background-color: #f8f8f9;
+}
+.el-table th>.cell {
+  color:rgba(28,36,56,1);
+  font-weight:600;
+  font-size:13px;
+}
+.el-table td, .el-table th {
+  padding: 7px 0px;
+}
+.el-button--primary{
+  background-color: #930CEA;
+  border-color: #930CEA;
+  color: #fff;
+}
+.el-button--primary:hover{
+  background-color: #930CEA;
+}
+.el-dialog__header{
+  border-bottom: none;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background-color: #930CEA;
+  border-color: #930CEA;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{
+  color: #333333cc;
+}
+
+.el-button:focus, .el-button:hover{
+  color: #fff !important;
+}
